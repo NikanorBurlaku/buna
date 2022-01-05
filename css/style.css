@@ -82,6 +82,7 @@ h3 {
     font-size: 1vw;
     line-height: 1.5vw;
     text-align: right;
+    white-space: nowrap; 
 }
 .header__number:last-child,
 .footer__number:last-child {
