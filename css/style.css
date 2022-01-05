@@ -316,14 +316,18 @@ h3 {
         padding-bottom: 3.5vw;
     }
     .header__logo{
-        width: 23%;
+        width: 32%;
+        padding-right: 9%;
     }
     .header__icons{
-        width: 33%;
+        width: 32%;
     }
     .icon{
         width: 5.33vw;
         height: 5.33vw;
+    }
+    .header__phone{
+        width: 32%;
     }
     .header__number{
         font-size: 2.7vw;
