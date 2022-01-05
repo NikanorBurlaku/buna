@@ -42,6 +42,13 @@ let elements = document.querySelectorAll('.element-animation');
 for (let elm of elements) {
 	observer.observe(elm);
 }
+$("body").on("mouseover", "video", function(){
+	this.play();
+	$( this ).css( "background-color", "black" );
+  });
+  $("body").on("mouseleave", "video", function(){
+	this.pause();
+  })
 /*
 let reservation=document.querySelector('.reservation')
 
