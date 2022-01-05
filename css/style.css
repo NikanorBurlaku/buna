@@ -51,7 +51,9 @@ h3 {
     outline: none;
 }
 .header__logo,
-.footer__logo {
+.footer__logo,
+.header__phone,
+.footer__phone {
     width: 15%;
 }
 .header__icons,
@@ -79,6 +81,7 @@ h3 {
 .footer__number {
     font-size: 1vw;
     line-height: 1.5vw;
+    text-align: right;
 }
 .header__number:last-child,
 .footer__number:last-child {
