@@ -179,7 +179,11 @@ h3 {
 
 /* Ограничивающая оболочка */
 .slick-list {
+    position: relative;
+    display: block;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 /* Лента слайдов */
 .slick-track {
@@ -190,13 +194,12 @@ h3 {
     -ms-flex-pack: center;
     justify-content: space-between;
     padding: 10vw 0;
-    gap: 10vw;
     align-items: start;
 }
 .slick-center {
     z-index: 3 !important;
     transition: 1s linear;
-    transform: scale(2);
+    transform: scale(1);
 }
 /* Конкретный слайдер */
 .slider {
@@ -214,8 +217,8 @@ h3 {
 .slider__href {
     color: #000;
     margin-top: 0.3vw;
-    font-size: 1vw;
-    line-height: 1.5vw;
+    font-size: 2vw;
+    line-height: 3vw;
     margin-top: 2vw;
 }
 .footer {
@@ -254,7 +257,6 @@ h3 {
 }
 .freeCall {
     display: flex;
-    flex-direction: column;
 }
 .form__title {
     font-size: 2.8vw;
